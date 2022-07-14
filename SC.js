@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $('.sac1').click(function(){
+        $('.para').toggleClass('active')
+    });
+    $('.sac2').click(function(){
+        $('.para-2').toggleClass('active');
+    });
+    $('.sac3').click(function(){
+        $('.para-3').toggleClass('active');
+    });
+    $('.sac4').click(function(){
+        $('.para-4').toggleClass('active');
+    });
+    $('.sac5').click(function(){
+        $('.para-5').toggleClass('active');
+    });
+});
